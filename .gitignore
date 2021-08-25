@@ -1,0 +1,11 @@
+Debug/*
+!Debug/*.dll
+Data/
+ipch/
+SDL2-2.0.5/
+matlab/*.asv
+*.sdf
+*.suo
+*.user
+*.opensdf
+*log.txt
