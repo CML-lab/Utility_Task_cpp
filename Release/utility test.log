@@ -1,0 +1,35 @@
+﻿Build started 2/14/2023 9:55:19 AM.
+     1>Project "C:\Users\User\Documents\Cpp code\utility test\utility test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\utility test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Circle.cpp DataWriter.cpp HandCursor.cpp Image.cpp main.cpp MouseInput.cpp Object2D.cpp Path2D.cpp Region2D.cpp Sound.cpp SpeedBar.cpp Timer.cpp
+         Circle.cpp
+     1>c:\users\user\documents\cpp code\utility test\Circle.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         DataWriter.cpp
+     1>c:\users\user\documents\cpp code\utility test\TargetFrame.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         HandCursor.cpp
+     1>c:\users\user\documents\cpp code\utility test\Circle.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Image.cpp
+     1>Image.cpp(2): fatal error C1083: Cannot open include file: 'SDL_image.h': No such file or directory
+         main.cpp
+     1>main.cpp(11): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         MouseInput.cpp
+     1>c:\users\user\documents\cpp code\utility test\config.h(5): fatal error C1083: Cannot open include file: 'SDL_opengl.h': No such file or directory
+         Object2D.cpp
+     1>c:\users\user\documents\cpp code\utility test\Object2D.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Path2D.cpp
+     1>c:\users\user\documents\cpp code\utility test\config.h(5): fatal error C1083: Cannot open include file: 'SDL_opengl.h': No such file or directory
+         Region2D.cpp
+     1>c:\users\user\documents\cpp code\utility test\Region2D.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Sound.cpp
+     1>c:\users\user\documents\cpp code\utility test\Sound.h(5): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+         SpeedBar.cpp
+     1>c:\users\user\documents\cpp code\utility test\SpeedBar.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Timer.cpp
+     1>c:\users\user\documents\cpp code\utility test\Timer.h(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+     1>Done Building Project "C:\Users\User\Documents\Cpp code\utility test\utility test.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.23

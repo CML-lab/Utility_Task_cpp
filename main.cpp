@@ -207,15 +207,15 @@ int main(int argc, char* args[])
 				{
 					pause = false;
 				}
-				else if (event.key.keysym.sym == SDLK_c || event.key.keysym.sym == SDLK_LEFT || event.key.keysym.sym == SDLK_f)
+				else if (event.key.keysym.sym == SDLK_z || event.key.keysym.sym == SDLK_LEFT || event.key.keysym.sym == SDLK_f)
 				{
 					Target.time = event.key.timestamp;
-					choiceinput = 1;  //1 is 'd'
+					choiceinput = 1;  //1 is 'left'
 				}
-				else if (event.key.keysym.sym == SDLK_m || event.key.keysym.sym == SDLK_RIGHT || event.key.keysym.sym == SDLK_j)
+				else if (event.key.keysym.sym == SDLK_x || event.key.keysym.sym == SDLK_RIGHT || event.key.keysym.sym == SDLK_j)
 				{
 					Target.time = event.key.timestamp;
-					choiceinput = 2;  //2 is 'f'
+					choiceinput = 2;  //2 is 'right'
 				}
 
 			}
